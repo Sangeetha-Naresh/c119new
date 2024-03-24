@@ -1,0 +1,19 @@
+after import nltk
+do this only omce : nltk.download('punkt')
+
+You only need to execute nltk.download('punkt') once to download the 'punkt' tokenizer resource. 
+After downloading it, NLTK will store the resource locally on your system, so you won't need to download it again 
+unless you reinstall NLTK or manually remove the downloaded files. 
+Therefore, you don't have to execute this each time you run your code unless the 'punkt' resource gets removed 
+or corrupted
+
+D:\>python --version
+Python 3.8.6
+
+D:\>pip show tensorflow
+Name: tensorflow
+Version: 2.5.0
+
+D:\>pip show nltk
+Name: nltk
+Version: 3.8.1
